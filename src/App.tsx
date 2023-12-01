@@ -1,11 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import Header from "@/pages/homepage/components/header";
 const App = () => {
   return (
     <div>
-      App
+      <Header />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
